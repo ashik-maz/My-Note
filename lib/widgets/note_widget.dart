@@ -24,7 +24,7 @@ class NoteWidget extends StatelessWidget {
               children: [
                 Align(
                   alignment: Alignment.center,
-                  child: Text(note.title,style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                  child: Text(note.title,style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
 
                 ),
                 Padding(
